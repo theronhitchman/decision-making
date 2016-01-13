@@ -8,3 +8,5 @@
 
 *.sage-chat
 *.sage-backup
+
+.DS_Store
