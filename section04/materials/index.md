@@ -15,5 +15,5 @@ title: Materials
 
 ##### Homework Assignments
 
-* [Homework 02]({{site.baseurl}}/graphs/homwork02.pdf)
+* [Homework 02]({{site.baseurl}}/graphs/homework02.pdf)
 * [Homework 01]({{site.baseurl}}/graphs/homework01.pdf)
