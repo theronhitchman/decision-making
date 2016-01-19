@@ -10,3 +10,5 @@
 *.sage-backup
 
 .DS_Store
+
+_site/*
