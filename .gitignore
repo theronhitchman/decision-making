@@ -10,3 +10,4 @@
 *.sage-backup
 
 .DS_Store
+.jekyll-metadata
