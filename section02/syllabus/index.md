@@ -66,9 +66,6 @@ I encourage you to utilize the Academic Learning Center’s assistance with writ
 
 ### Grading and Assessment
 
-
-### Grading and Assessment
-
 #### The Idea of Specifications Grading
 Grading for Math 1100 will be done clearly and simply, although the system might be new to you.
 There are three types of graded assignments in this course:
