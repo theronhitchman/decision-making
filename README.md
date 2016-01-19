@@ -14,8 +14,11 @@ Infinity: Cantor's Paradise
 
 ## Spring 2016
 
+Added course web pages, too.
+
 # MWF 44 meetings (50 minutes) + final exam
 Topology: picture-hanging puzzles, knots, and links
 Infinity: Cantor's Paradise
 
 # TTh 30 meetings (75 minutes) + final exam
+Graph Theory: planarity, paths,
