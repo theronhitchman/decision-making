@@ -41,8 +41,7 @@
 
 \section*{Introduction}
 
-We will collect some new ideas that help us distinguish graphs as non-isomorphic. We will also conclude our
-study of the Five Cities Puzzle by giving two proofs that it is impossible.
+We will collect some new ideas that help us distinguish graphs as non-isomorphic.  This reading has many more small exercises than usual.
 
 \section*{Goals}
 At the end of this assignment, a student should be able to:
@@ -150,11 +149,81 @@ or \textit{vice versa}.)
 
 \subsection*{A Curious Fact about the Degree Sequence}
 
+If you look at enough examples of graphs and their degree sequences, you will note a curious fact. Again, we state it as a \emph{theorem}. Is that word new to you? It is the second time I have used it. It has a special meaning to 
+mathematicians.
+
+A \emph{theorem} is a mathematical statement which has a proof. Now, don't let that frighten you. A proof is just
+a careful argument that mathematicians have decided is correct and convincing. 
+
+\begin{theorem}[Sum of Degrees Theorem]
+The sum of all of the degrees of a graph is an even number.
+\end{theorem}
+
+\begin{exercise}
+Check that the Sum of Degrees Theorem holds for each of the example graphs you have seen so far in this assignment.
+\end{exercise}
+
+For fun, I'll give you the first crack at this one, with a hint.
+
+\begin{challenge}[Hint for the Sum of Degrees Theorem]
+Come up with  way to explain why the Sum of Degrees Theorem is true by considering the edges instead.
+\end{challenge}
 
 
 \subsection*{Cycles and Trees}
 
+An important kind of special structure in a graph is called a \emph{cycle}. A \emph{cycle} is a path along the graph that closes up, but never repeats an edge. That is, we can start from a vertex, walk along the graph by taking edges
+from one vertex to the other until we end where we started, but along the way, we are not allowed to repeat an edge. We are allowed to repeat a vertex!
 
+If we also require that we can't repeat a vertex in the middle (we of course begin and end in the same place), then
+we call the cycle a \emph{simple cycle}.
+
+\begin{exercise}
+Find a cycle in $K_5$ which uses three edges.
+
+Then find a cycle in $K_5$ that uses four edges.
+
+Then find a cycle in $K_5$ that uses five edges.
+\end{exercise}
+
+The number of edges used in a cycle is called the \emph{length} of the cycle.
+
+\begin{exercise}
+Find a cycle of length 4 in $K_{3,3}$. 
+
+Then find a simple cycle in $K_{3,3}$. 
+
+Then find a cycle in $K_{3,3}$ which is NOT simple and has length 8.
+
+Then find a cycle in $K_{3,3}$ which is NOT simple and has length 12.
+\end{exercise}
+
+
+\subsubsection*{How Are Cycles Helpful?}
+
+The collection of cycles in a graph, and their lengths, are also invariants for a graph!
+
+\begin{exercise}
+Find an example of a pair of graphs that are different because one of them has a cycle of length 5 but the
+other one doesn't.
+\end{exercise}
+
+\subsubsection*{One Last Word}
+
+A graph which is connected and has no cycles is called a \emph{tree}.
+
+\begin{exercise}
+Draw a graph which is a tree and has 5 vertices.
+\end{exercise}
+
+\begin{exercise}
+Draw a graph which is a tree and has 12 vertices.
+\end{exercise}
+
+
+\section*{Final Note}
+
+Have you figured out how to resolve either the Five Cities Puzzle or the Three Utilities Puzzle, yet?
 
 %\begin{thebibliography}{9}
 %\end{thebibliography}
