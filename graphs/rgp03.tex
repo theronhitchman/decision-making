@@ -53,9 +53,7 @@ At the end of this assignment, a student should be able to:
 \end{compactitem}
 A student might also be able to:
 \begin{compactitem}
-\item explain why the Five Cities Puzzle is unsolvable.
-\item Give a proof that the graph $K_5$ has crossing number equal to $1$.
-\item Settle the Three Utilities Puzzle.
+\item Give a proof of the theorem about the sum of degrees of a graph.
 \end{compactitem}
 
 \section*{Reading and Questions for Graph Theory Meeting Four}
@@ -119,6 +117,44 @@ Check that $K_5$, the complete graph on five vertices, has every vertex of degre
 \begin{exercise}
 Check that $K_{3,3}$, the complete bipartite graph on three and three vertices, has every vertex of degree $3$.
 \end{exercise}
+
+\begin{exercise}
+For each vertex in the graph in Figure \ref{figure:deg-ex}, find the degree of that vertex. Label the graph by writing the degree next to each vertex.
+\end{exercise}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.3\textwidth]{images/disconnected.png}
+\caption{Our Disconnected Friend}
+\label{figure:deg-ex}
+\end{figure}
+
+Usually, it is helpful to know ALL of the degrees of all the different vertices, so we make a list. This list is called
+the \emph{degree sequence} of the graph, and is always written in \textit{decreasing order}. So, the degree
+sequence of $K_5$ is $\{4,4,4,4,4\}$, and the degree sequence for $K_{3,3}$ is $\{3,3,3,3,3,3\}$. 
+If two graphs are isomorphic, then they must have the same degree sequence.
+
+\begin{exercise}
+Check that the degree sequence of the disconnected graph in Figure \ref{figure:deg-ex} is $\{2,2,2,1,1,0\}$.
+\end{exercise}
+
+\begin{exercise}
+Find and draw and example of a graph that has degree sequence equal to $\{2,2,2,2,1,1\}$.
+\end{exercise}
+
+\begin{exercise}
+Find \textbf{another} example of a graph which has degree sequence equal to $\{2,2,2,2,1,1\}$. This graph should
+be non-isomorphic to your last example. (Hint: if you last graph was connected, find a graph which is disconnected, 
+or \textit{vice versa}.)
+\end{exercise}
+
+\subsection*{A Curious Fact about the Degree Sequence}
+
+
+
+\subsection*{Cycles and Trees}
+
+
 
 %\begin{thebibliography}{9}
 %\end{thebibliography}
