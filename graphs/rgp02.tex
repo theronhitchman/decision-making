@@ -194,6 +194,16 @@ crossings.
 
 If you recall, this is the same as saying that the graph has crossing number equal to zero.
 
+\noindent
+\textbf{Important Note to Dispel a Common Point of Confusion:} There is a distinction to be made here between 
+a graph, and the different drawings of that graph. A single graph has many different drawings, of course. The word
+planar gets applied to both, and we want to be careful.
+\emph{A drawing is planar if it has no edge crossings.} You can 
+see this just by looking.  \emph{A graph is planar if it has a drawing which is planar.} This is harder to check, 
+because you have to either find a drawing which is planar, or somehow make an argument that there isn't any way
+to do that.
+
+
 \begin{exercise}
 Remember some examples of planar graphs that you have seen so far. If you do not remember any, 
 go back through examples from the previous readings and homework, and note which ones are 
@@ -204,11 +214,11 @@ Back at the dawn of graph theory, one of its first practitioners (Leonard Euler,
 found a really interesting fact about planar graphs. Nowadays, we write it down in a way to make it look
 official:
 
-\begin{theorem}[Euler's Formula for Drawings of Planar Graphs] Suppose that we have a drawing of a
-planar graph. That is, a drawing of the graph where no edges cross. Let $V$ be the total number of vertices 
-in the graph, and let $E$ be the total number of edges in the graph. The drawing of the graph divides the 
-plane into a bunch of regions, including one region which lies completely outside the graph. Let $R$ be
-the total number of regions. Then
+\begin{theorem}[Euler's Formula for Planar Drawings of Planar Graphs] Suppose that we have a planar 
+drawing of a planar graph. That is, a drawing of the graph where no edges cross. Let $V$ be the total number 
+of vertices in the graph, and let $E$ be the total number of edges in the graph. The drawing of the graph 
+divides the plane into a bunch of regions, including one region which lies completely outside the graph. 
+Let $R$ be the total number of regions. Then
 \[
 V-E+R = 2
 \]
@@ -216,9 +226,9 @@ V-E+R = 2
 
 We're not going to prove this right now. Instead, let's look at an example.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
-\includegraphics[width=.4\textwidth]{images/std_k4.png}
+\includegraphics[width=.3\textwidth]{images/std_k4.png}
 \caption{$K_4$, the complete graph on four vertices}
 \label{figure:stdk4}
 \end{figure}
@@ -248,7 +258,7 @@ Here is a standard drawing of $K_{3,3}$.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=.6\textwidth]{images/k3,3.png}
+\includegraphics[width=.4\textwidth]{images/k3,3.png}
 \caption{The complete bipartite graph graph $K_{3,3}$}
 \label{figure:stdk33}
 \end{figure}
