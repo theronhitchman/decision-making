@@ -26,5 +26,5 @@ in class in these pages.
   </a>  
 </div>
 <div class="visible-xs visible-sm">
-  <p>&nbsp;</p
+  <p>&nbsp;</p>
 </div>
