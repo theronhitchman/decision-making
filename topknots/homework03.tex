@@ -6,11 +6,16 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{amsthm}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,headheight=22pt]{geometry}
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage{lastpage}
 \usepackage{graphicx}
+
+
+\theoremstyle{definition}
+\newtheorem{task}{Task}
 
 \begin{document}
 
@@ -22,39 +27,52 @@
 \pagestyle{fancy}
 \lhead{Math 1100}
 \chead{Weekly Homework}
-\rhead{Due: February 6}
+\rhead{Due: January 29}
 \lfoot{}
 \cfoot{\emph{Prof. Hitchman}}
 \rfoot{}
 
+
+
 \begin{center}
 {
 \Large
-\textbf{Written Assignment \#3}
+\textbf{Knots: Written Assignment \#3}
 }
 \end{center}
-
-We have seen the following knot before, and noted that it is a planar projection of an unknot.
-Show that this knot is equivalent to the unknot be describing a sequence of Reidemeister moves which change this planar projection into an ordinary circle.
-Draw pictures of the steps along the way, and clearly label each transition with the type of move made.
-
-\vspace{1cm}
-
-
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=.7\textwidth]{knotpics/9SeptQ5b.png}
-    \caption{An Unknot}
-\end{figure}
 
 To earn a passing mark, your assignment must:
 \begin{itemize}
 \item be written legibly. Diagrams may be hand drawn, but should be clear enough to read easily.
-\item address the writing prompt above.
+\item address the writing prompts below.
 \item conform to reasonable standards for grammar, spelling, and usage of the English language with minimal errors. (You may consider seeking help on writing from the Writing Center in the Academic Learning Center. http://www.uni.edu/unialc/writing-center)
-\item be turned in by 2pm (the end of class) on Friday, February 6.
+\item be turned in by 3pm on Friday, January 29.
 \end{itemize}
+
+\begin{task}
+Draw planar projections of (1) a trefoil knot and (2) a figure eight knot. Make them look nice and label which one is which.
+\end{task}
+
+\begin{task}
+Draw a planar projection of the unknot which happens to have six crossings. (You might make one up by using 
+Reidemeister moves to \emph{complicate} things, rather than to simplify.) Be sure to make a pretty picture. 
+
+Explain how you know your knot is the same as the unknot. 
+\end{task}
+
+
+\begin{task}
+We have seen the following knot before, and noted that it is a planar projection of an unknot.
+Show that this knot is equivalent to the unknot be describing a sequence of Reidemeister moves which change this planar projection into an ordinary circle.
+
+Draw pictures of the steps along the way, and clearly label each transition with the type of Reidemeister move made.
+\end{task}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{knotpics/9SeptQ5b.png}
+    \caption{An Unknot}
+\end{figure}
 
 
 \end{document}
