@@ -15,13 +15,16 @@ You can find all of the information you need to participate
 in class in these pages.
 
 <div class="btn-group btn-group-justified">
-  <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/section04/syllabus/">
+  <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/section02/syllabus/">
     Syllabus
   </a>
-  <a class="btn btn-info btn-lg" href="{{site.baseurl}}/section04/materials/">
+  <a class="btn btn-info btn-lg" href="{{site.baseurl}}/section02/materials/">
     Materials
   </a>
-  <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/section04/calendar/">
+  <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/section02/calendar/">
     Calendar
   </a>  
+</div>
+<div class="visible-xs visible-sm">
+  <p>&nbsp;</p
 </div>

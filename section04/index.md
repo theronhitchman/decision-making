@@ -25,3 +25,6 @@ in class in these pages.
     Calendar
   </a>  
 </div>
+<div class="visible-xs visible-sm">
+  <p>&nbsp;</p
+</div>
