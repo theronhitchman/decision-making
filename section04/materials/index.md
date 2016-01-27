@@ -9,6 +9,7 @@ title: Materials
 
 ##### Reading and Guided Practice Assignments
 
+* [Reading 05]({{site.baseurl}}/graphs/rgp05.pdf)
 * [Reading 04]({{site.baseurl}}/graphs/rgp04.pdf)
 * [Reading 03]({{site.baseurl}}/graphs/rgp03.pdf)
 * [Reading 02]({{site.baseurl}}/graphs/rgp02.pdf)
