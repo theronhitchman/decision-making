@@ -13,3 +13,9 @@ title: Materials
 #### Projects
 
 coming? soon?
+
+#### Solutions to Class Exercises
+<ul>
+<li><a href="{{site.baseurl}}/topknots/FigureEightKnot-ReidemeisterMoves.pdf">Reidemeister
+Moves on the Figure 8 knot, meeting 7</a></li>
+<ul>
