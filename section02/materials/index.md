@@ -15,7 +15,7 @@ title: Materials
 
 * [The Final Project for the Topology Unit][proj]
 
-[proj]: {{site.baseurl}}/topknots/Knots_Project.pdf
+[proj]: {{site.baseurl}}/topknots/Knot_Project.pdf
 
 #### Exam Specifications
 
