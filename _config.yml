@@ -8,7 +8,7 @@ baseurl:       "/decision-making"
 
 
 markdown:      kramdown
-highlighter:   pygments
+highlighter:   rouge
 
 
 section02url: "http://theronhitchman.github.io/decision-making/section02"
