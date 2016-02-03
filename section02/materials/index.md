@@ -13,7 +13,15 @@ title: Materials
 
 #### Projects
 
-coming? soon?
+* [The Final Project for the Topology Unit][proj]
+
+[proj]: {{site.baseurl}}/topknots/Knots_Proj.pdf
+
+#### Exam Specifications
+
+* [Description of Expectations for the Topology Unit Exam][exam]
+
+[exam]: {{site.baseurl}}/topknots/topknots-examspecs.pdf
 
 #### Solutions to Class Exercises
 <ul>
