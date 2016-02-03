@@ -3,6 +3,8 @@ layout: section02
 title: Materials
 ---
 
+### Topology Unit: Picture Hanging Puzzles, Knots, and Links
+
 #### Homework Assignments
 <ul>
 <li><a href="{{site.baseurl}}/topknots/homework04.pdf">Homework 04</a></li>
