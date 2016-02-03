@@ -5,6 +5,7 @@ title: Materials
 
 #### Homework Assignments
 <ul>
+<li><a href="{{site.baseurl}}/topknots/homework04.pdf">Homework 04</a></li>
 <li><a href="{{site.baseurl}}/topknots/homework03.pdf">Homework 03</a></li>
 <li><a href="{{site.baseurl}}/topknots/homework02.pdf">Homework 02</a></li>
 <li><a href="{{site.baseurl}}/topknots/homework01.pdf">Homework 01</a></li>
