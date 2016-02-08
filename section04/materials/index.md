@@ -28,10 +28,10 @@ title: Materials
 
 * [Graph Theory Unit Exam Expectations][graphspecs]
 
-[graphspecs]: {{site.baseurl}}/graphs/graphs-examspecs.pdf
+[graphspecs]: {{site.baseurl}}/graphs/GraphsExamSpecs.pdf
 
 #### Final Project
 
 * [Graph Theory Unit Project][graphproj]
 
-[graphproj]: {{site.baseurl}}/graphs/Graphs_Project.pdf
+[graphproj]: {{site.baseurl}}/graphs/GraphsProject.pdf
