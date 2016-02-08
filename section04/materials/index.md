@@ -9,7 +9,7 @@ title: Materials
 
 #### Reading and Guided Practice Assignments
 
-* [Reading 07]({{site.baseurl}}/graphs/rgp07.pdf) 
+* [Reading 07]({{site.baseurl}}/graphs/rgp07.pdf)
 * [Reading 06]({{site.baseurl}}/graphs/rgp06.pdf)
 * [Reading 05]({{site.baseurl}}/graphs/rgp05.pdf)
 * [Reading 04]({{site.baseurl}}/graphs/rgp04.pdf)
@@ -26,8 +26,12 @@ title: Materials
 
 #### Exam Specifications
 
-coming soon...
+* [Graph Theory Unit Exam Expectations][graphspecs]
+
+[graphspecs]: {{site.baseurl}}/graphs/graphs-examspecs.pdf
 
 #### Final Project
 
-coming soon...
+* [Graph Theory Unit Project][graphproj]
+
+[graphproj]: {{site.baseurl}}/graphs/Graphs_Project.pdf
