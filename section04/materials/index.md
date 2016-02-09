@@ -7,6 +7,9 @@ title: Materials
 
 ### Graph Theory Unit
 
+* [A handout from day 04]({{site.baseurl}}/graphs/mdm-graphs-handout-day04.pdf)
+* [A handout from day 09]({{site.baseurl}}/graphs/mdm-graphs-handout-day09.pdf)
+
 #### Reading and Guided Practice Assignments
 
 * [Reading 07]({{site.baseurl}}/graphs/rgp07.pdf)
