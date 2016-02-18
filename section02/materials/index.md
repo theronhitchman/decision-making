@@ -3,6 +3,15 @@ layout: section02
 title: Materials
 ---
 
+### Prob and Stats Unit: A Chancy Thing
+
+#### Homework Assignments
+
+* [Homework 05]({{site.baseurl}}/probstats/homework1.pdf)
+
+
+
+
 ### Topology Unit: Picture Hanging Puzzles, Knots, and Links
 
 #### Homework Assignments

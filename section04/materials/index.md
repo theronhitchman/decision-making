@@ -3,6 +3,12 @@ layout: section04
 title: Materials
 ---
 
+### Prob and Stats Unit: A Chancy Thing
+
+#### Homework Assignments
+
+* [Homework 05]({{site.baseurl}}/probstats/homework1.pdf)
+
 
 
 ### Graph Theory Unit
