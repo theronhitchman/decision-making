@@ -1,0 +1,60 @@
+\documentclass[12pt]{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{paralist}
+
+\theoremstyle{definition}
+\newtheorem{task}{Task}
+
+\begin{document}
+
+\begin{center}
+\textbf{\Huge
+Chancy Business:\\ Discussions\#6
+}
+\end{center}
+
+
+\vspace{.5in}
+
+ \begin{task}[An Odd Question]
+ To throw a total of 7 with a pair of dice, you have to get a 1 and a 6, or a 2 and a 5, or a 3 and a 4.
+
+To throw a total of 6 with a pair of dice, you have to get a 1 and a 5, or a 2 and a 4, or a 3 and another 3. 
+
+With two fair dice, do you expect (a) to throw a 7 more frequently than a 6, (b) to throw a 6 more frequently than a 7, or (c) to throw 6 and 7 equally often.\\
+
+We want to analyze this carefully. So we'll go in small steps.
+\begin{compactitem}
+\item What is the chance of throwing a 1 with the first die and a 6 with the second die?
+\item What is the chance of throwing a 6 with the first die and a 1 with the first die?
+\item What is the chance of throwing a pair of 3's?
+\item Make a table listing all of the possible outcomes of the dice rolls. Circle all of the outcomes which add to 7. Put a box around all of the outcomes that add to 6. 
+\item Which option from the original question is correct? Why do you think many people get this wrong?
+\end{compactitem}
+\end{task}
+
+\begin{task}[Find the Mistake] Consider a situation where the random trial consists of rolling one fair six-sided die and recording the number shown on the top. Let $E$ be the event that an even number is up. Let $M$ be the event that either 1, 2, 3, or 5 is up.
+
+David says that the probability of the event $E\cup M$ (read as ``$E$ or $M$") is 7/6. What was his reasoning, and where did he go wrong?
+\end{task}
+
+
+\begin{task}[A Compound Event Setup] Now imagine that our random chance even happens in two stages. (This is a kind of \emph{compound event}.) We have a fair coin and two urns (fancy vases with floral prints on them). The urns have some colored plastic balls in them.
+\begin{compactdesc}
+\item[Urn 1] 3 red balls, 1 green ball.
+\item[Urn 2] 1 red ball, 3 green balls.
+\end{compactdesc}
+Step one is to decide which urn to draw from by tossing the coin. If the coin shows heads, we draw from Urn 1. If the coin shows tails, we draw from Urn 2. Step two is to draw a ball from the designated urn. We assume that the coin toss is independent of the drawing of balls from an urn.
+
+What is the probability of getting a red ball?
+\end{task}
+
+
+\begin{task}[Laplace's Trick Question]
+Now suppose that we use the coin \& urn setup above, but we select \emph{two} balls from the designated urn, with replacement. That means that after we draw the first ball, we note what color it is, \emph{put it back}, mix the balls in the urn, and then choose again.
+
+David says that the probability of getting two red balls must be $1/4$. But this is wrong. What is the correct probability?
+\end{task}
+
+
+\end{document}
