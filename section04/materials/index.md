@@ -7,8 +7,8 @@ title: Materials
 
 #### Homework Assignments
 
+* [Homework 06]({{site.baseurl}}/probstats/homework2.pdf)
 * [Homework 05]({{site.baseurl}}/probstats/homework1.pdf)
-
 
 
 ### Graph Theory Unit

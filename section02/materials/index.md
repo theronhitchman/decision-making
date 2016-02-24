@@ -7,9 +7,8 @@ title: Materials
 
 #### Homework Assignments
 
+* [Homework 06]({{site.baseurl}}/probstats/homework2.pdf)
 * [Homework 05]({{site.baseurl}}/probstats/homework1.pdf)
-
-
 
 
 ### Topology Unit: Picture Hanging Puzzles, Knots, and Links
