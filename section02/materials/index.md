@@ -7,6 +7,7 @@ title: Materials
 
 #### Homework Assignments
 
+* [Homework 07]({{site.baseurl}}/probstats/homework3.pdf)
 * [Homework 06]({{site.baseurl}}/probstats/homework2.pdf)
 * [Homework 05]({{site.baseurl}}/probstats/homework1.pdf)
 
