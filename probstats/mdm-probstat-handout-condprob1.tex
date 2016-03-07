@@ -1,0 +1,84 @@
+\documentclass[12pt]{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{paralist}
+
+\theoremstyle{definition}
+\newtheorem{task}{Task}
+
+\begin{document}
+
+\begin{center}
+\textbf{\Huge
+Chancy Business:\\ Discussion \#N
+}
+\end{center}
+
+
+\vspace{.25in}
+
+\section*{Conditional Probabilities, Part One}
+
+
+Things become a bit more complicated when we allow our statements to have conditions in them. Let's get started by considering some toy situations. Remember that drawing a decision tree can be very helpful.
+
+\subsection*{Parking Tickets} If you park overnight on the street near a certain apartment, and don't live on the block, you may be ticketed for not having a permit for overnight parking. The fine will be \$50. But the street is only patrolled on average about once a week.\\
+What is the probability of being fined?\\
+Apparently, the street is never patrolled on two consecutive nights. What is the probability of getting a ticket tonight, assuming that you got a ticket last night?\\
+
+\vspace{1cm}
+
+\subsection*{Conditional Dice}
+Consider rolling a fair six-sided die. In fact, your pesky little sister rolls the die behind a screen, and will answer only the questions "Did you roll an even number?" and "Did you roll a six?"
+What is the probability of rolling a six?\\
+What is the probability of rolling an even number?\\
+What is the probability of rolling a six, knowing that you have rolled an even number?\\
+
+\vspace{1cm}
+
+\subsection*{Overlapping Events}
+Now suppose that we have the event "The die shows 1, 2, 3, or 5." \\
+What is the probability of "The die shows 1, 2, 3, or 5" ?\\
+What is the probability that the roll shows an even number?\\
+What is the probability that the die roll is even, knowing that the die shows 1, 2, 3 or 5?\\
+What is the probability that the die roll is even and "the die shows 1, 2, 3, or 5"?\\
+
+\vspace{1cm}
+
+\subsection*{Well-Shuffled Cards}
+Consider the case where a magician draws one card from a well-shuffled standard pack of 52 cards. The magician tells you if the card is either red or clubs, but not which.  If you are told that the first card drawn is either red or a club, what is the probability that it is an ace?\\
+
+Suppose you have no special information, what is the probability that the card is an ace and either red or a club?\\
+
+\vspace{1cm}
+
+
+
+\clearpage
+
+
+
+\subsection*{The Fallacious Gambler} A gambler with a reasoning problem tries to learn from experience. The roulette wheel has 18 black segments, 18 red segments and 2 green segments. His reasoning is:
+\begin{quotation}
+There have been 12 consecutive spins that land on black.\\
+The wheel is fair, so it stops on red as often as it stops on black. \\
+Since it has not stopped on red recently, red must come up soon. I will bet on red.
+\end{quotation}
+Compute the probability of 12 consecutive black spins. Compute the probability that 12 consecutive spins are black and the thirteenth spin is a red. Compute the conditional probability of a red spin given that there have been 12 black spins.\\
+Use this to explain why the gambler's logic is not going to work.
+
+\vspace{1cm}
+
+\subsection*{Justice and the Taxicab} 
+You have been called to jury duty in a town where there are two taxi companies, Green Cabs, Ltd. and Blue Taxi Inc. Blue Taxi uses cars painted blue; Green Cabs uses green cars.
+
+Green Cabs dominates the market, with 85\% of the taxis on the road.
+
+On a misty winter night a taxi sideswiped another car and drove off. A witness says it was a blue cab.
+
+The witness is tested under conditions like those of the night of the accident, and 80\% of the she correctly reports the color of the cab that is seen. That is, regardless of whether the cab shown on a misty evening is blue or green, she gets it right 80\% of the time.
+
+Draw out a diagram to organize the information.
+
+What is the probability that the cab was actually blue?
+
+\end{document}
