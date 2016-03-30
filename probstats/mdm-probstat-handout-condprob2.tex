@@ -1,0 +1,60 @@
+\documentclass[10pt]{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{paralist}
+
+\theoremstyle{definition}
+\newtheorem{task}{Task}
+
+\begin{document}
+
+\begin{center}
+\textbf{\Huge
+Chancy Business:\\ Discussion \#{N+1}
+}
+\end{center}
+
+\section{Conditional Probability the Fancy Way: Bayes' Rule}
+
+First, we need to talk about \emph{Bayes' Rule} for relating conditional probabilities. If you have some hypothesis event $H$ and then the event that $H$ doesn't happen, $- H$ (this is read as ``not $H$''), and then some event that you know happens, say $E$, then Bayes tells us how to compute the probability that $H$ is true.
+\[
+\Pr(H\mid E) = \dfrac{\Pr(H)\Pr(E\mid H)}{\Pr(E)} = 
+\dfrac{\Pr(H)\Pr(E\mid H)}{\Pr(H)\Pr(E\mid H)+ \Pr(- H)\Pr(E\mid - H)}
+\]
+Those two denominators are really the same thing. Choose the one you need. If you have $\Pr(E)$, go with it. If not, you're stuck with the nasty one. This happens in practice a lot. \\
+
+Here is an example: Suppose you have a beautiful new baby girl. Right after her birth, doctors do a lot of blood tests to determine if she has any health troubles. One of the tests comes back positive. How sure are you that you need to be worried? Well, it can depend. Lots of blood screenings have "false positives," where the test indicates some trouble where it really isn't.\\
+
+This can happen even with pretty good screening procedures. Let's assume that the test is right $99\%$ of the time. That is, if you are sick, the test says YES $99\%$ of the time; and if you are not sick, the test says NO $99\%$ of the time. But the disease is very rare, and only 100 out of every million people have it.\\
+
+What are the chances that your parental terror is justified? What are the chances of a false positive?\\
+
+In this example, $H$ is the hypothesis that the girl is sick with ``nasty, threatening health problem X'', and $-H$ is the hypothesis that she is not sick with ``problem X.'' The event $E$ is the event that the test comes back positive for ``problem X.''  A false positive is the event $-H\mid E$, the girl is not sick, but the test says she is.\\
+
+How can we use Bayes' rule to figure out the probability of a false positive?\\
+
+Let's think about the hypothesis part first. By our assumptions above, $\Pr(H) = 100/1000000 = 0.0001$, because the disease happens to 100 out of a million people. From this, we see that $\Pr(-H) = 0.9999$.\\
+
+Now, what about the event? Well, we have two bits of conditional information.
+$\Pr(E\mid H) = 0.99$ and $\Pr(E\mid -H) = 0.01$. (This is just symbols for our assumptions. Can you explain that?)\\
+
+So, applying Bayes' rule, we find that 
+\[
+\begin{split}
+\Pr(-H\mid E) & = 
+\dfrac{\Pr(-H)\Pr(E\mid -H)}{\Pr(-H)\Pr(E\mid -H) + \Pr( H)\Pr(E\mid H)}
+= \dfrac{(0.9999)\times(0.01) }{(0.9999)\times (0.01) + (.0001) \times (0.99) } \\
+& \approx 0.9902
+\end{split}
+\]
+So we see that there is a $99\% $ chance that this is a false positive result!
+
+
+
+\subsection{Spiders} A tarantula is a large, scary-looking tropical spider.\\
+A long time ago, 3\% of shipments of bananas from Honduras were found to have tarnatulas on them, and 6\% of shipments of bananas from Gautemala had tarantulas.
+Also, at that time, 40\% of the shipments came from Honduras, and 60\% of the shipments came from Gautemala.\\
+Now, a randomly selected shipment of bananas has a tarantula in it. What are the chances that the shipment came from Gautemala?
+
+Set this up carefully, and use Bayes' Rule.
+
+\end{document}
