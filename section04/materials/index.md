@@ -3,6 +3,13 @@ layout: section04
 title: Materials
 ---
 
+### Counting to Infinity: Cantor's Paradise
+
+#### Course Pack of Readings
+
+* [Readings for the unit]({{site.baseurl}}/cantor/CantorsParadise.pdf)
+
+
 ### Prob and Stats Unit: A Chancy Thing
 
 #### Homework Assignments
