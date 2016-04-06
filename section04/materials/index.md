@@ -12,6 +12,14 @@ title: Materials
 
 ### Prob and Stats Unit: A Chancy Thing
 
+#### Project
+
+* [The Final Project for the Prob/Stats Unit][proj2]
+
+[proj2]: {{site.baseurl}}/probstats/Prob_Proj.pdf
+
+
+
 #### Homework Assignments
 
 * [Homework 07]({{site.baseurl}}/probstats/homework3.pdf)
