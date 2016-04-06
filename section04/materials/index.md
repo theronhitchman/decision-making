@@ -5,6 +5,14 @@ title: Materials
 
 ### Counting to Infinity: Cantor's Paradise
 
+### Homework
+
+* [homework08]({{site.baseurl}}/cantor/homework01.pdf)
+* [homework09]({{site.baseurl}}/cantor/homework02.pdf)
+* [homework10]({{site.baseurl}}/cantor/homework03.pdf)
+* [homework11]({{site.baseurl}}/cantor/homework04.pdf)
+
+
 #### Course Pack of Readings
 
 * [Readings for the unit]({{site.baseurl}}/cantor/CantorsParadise.pdf)
